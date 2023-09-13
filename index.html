@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>labr</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>labr</h1>
+      is
+      <span
+        ><a href="https://tegabrain.com/">Tega Brain</a> and
+        <a href="https://lav.io/">Sam Lavigne</a></span
+      >.
+    </header>
+
+    <p class="divider">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</p>
+
+    <h2>Selected Works</h2>
+    <p><a href="https://offset.labr.io/">Offset</a> (2023)</p>
+    <p><a href="https://fragilestates.labr.io/">Fragile States</a> (2022)</p>
+    <p><a href="https://perfectsleep.labr.io/">Perfect Sleep</a> (2021)</p>
+
+    <p>
+      <a href="http://syntheticmessenger.labr.io/">Synthetic Messenger</a>
+      (2021)
+    </p>
+    <p><a href="http://getwellsoon.labr.io/">Get Well Soon</a> (2020)</p>
+    <p><a href="http://tegabrain.com/Sacrifice-Zone">Sacrifice Zone</a> (2020)</p>
+    <p>
+      <a href="https://whitney.org/exhibitions/new-york-apartment">New York Apartment</a>
+      (2020)
+    </p>
+
+    <p><a href="https://neworgans.net/">The New Organs</a> (2018)</p>
+
+    <p><a href="https://enron.email/">The Good Life</a> (2016)</p>
+    <p><a href="http://smell.dating/">Smell Dating</a> (2016)</p>
+    <p>
+      <a href="http://intergovernmentalpaneloncapitalism.org/"
+        >The Intergovernmental Panel on Capitalism</a
+      >
+      (2015)
+    </p>
+    <p class="divider">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</p>
+    <script>
+      const links = [
+        `<a href="https://tegabrain.com/">Tega Brain</a>`,
+        `<a href="https://lav.io/">Sam Lavigne</a>`,
+      ];
+      document.querySelector("header span").innerHTML =
+        Math.random() >= 0.5 ? `${links[0]} and ${links[1]}` : `${links[1]} and ${links[0]}`;
+    </script>
+  </body>
+</html>

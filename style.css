@@ -1,0 +1,16 @@
+body {
+	margin: 20px;
+	text-align: center;
+}
+
+h1,h2,h3,h4 {
+	font-weight:normal;
+}
+
+a {
+	color: black;
+}
+
+.divider {
+	font-size: 2vw;
+}
