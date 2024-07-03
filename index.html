@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -18,9 +18,12 @@
       >.
     </header>
 
-    <p class="divider">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</p>
+    <p class="divider">
+      +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    </p>
 
     <h2>Selected Works</h2>
+    <p><a href="https://lav.io/projects/cold-call/">Cold Call</a> (2023)</p>
     <p><a href="https://offset.labr.io/">Offset</a> (2023)</p>
     <p><a href="https://fragilestates.labr.io/">Fragile States</a> (2022)</p>
     <p><a href="https://perfectsleep.labr.io/">Perfect Sleep</a> (2021)</p>
@@ -30,9 +33,13 @@
       (2021)
     </p>
     <p><a href="http://getwellsoon.labr.io/">Get Well Soon</a> (2020)</p>
-    <p><a href="http://tegabrain.com/Sacrifice-Zone">Sacrifice Zone</a> (2020)</p>
     <p>
-      <a href="https://whitney.org/exhibitions/new-york-apartment">New York Apartment</a>
+      <a href="http://tegabrain.com/Sacrifice-Zone">Sacrifice Zone</a> (2020)
+    </p>
+    <p>
+      <a href="https://whitney.org/exhibitions/new-york-apartment"
+        >New York Apartment</a
+      >
       (2020)
     </p>
 
@@ -46,14 +53,18 @@
       >
       (2015)
     </p>
-    <p class="divider">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</p>
+    <p class="divider">
+      +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    </p>
     <script>
       const links = [
         `<a href="https://tegabrain.com/">Tega Brain</a>`,
         `<a href="https://lav.io/">Sam Lavigne</a>`,
       ];
       document.querySelector("header span").innerHTML =
-        Math.random() >= 0.5 ? `${links[0]} and ${links[1]}` : `${links[1]} and ${links[0]}`;
+        Math.random() >= 0.5
+          ? `${links[0]} and ${links[1]}`
+          : `${links[1]} and ${links[0]}`;
     </script>
   </body>
 </html>
