@@ -1,16 +1,30 @@
 body {
-	margin: 20px;
-	text-align: center;
+  margin: 20px;
+  text-align: center;
+  margin: 0 auto;
 }
 
-h1,h2,h3,h4 {
-	font-weight:normal;
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+
+h1 a {
+  text-decoration: none;
 }
 
 a {
-	color: black;
+  color: black;
 }
 
 .divider {
-	font-size: 2vw;
+  font-size: 2vw;
+}
+
+.container {
+  max-width: 65ch; /* About 65 characters per line, optimal for readability */
+  text-align: center;
+  margin: 0 auto;
 }
