@@ -1,0 +1,6 @@
+{{ define "main" }}
+  <h2>Selected Works</h2>
+  {{ range $i,$p := where .Site.RegularPages.ByPublishDate.Reverse "Type" "projects"}}
+    <p><a href="{{ .Permalink }}">{{ .Title }}</a> <date>({{ .Date.Format "2006" }})</date></p>
+  {{ end }}
+{{ end }}

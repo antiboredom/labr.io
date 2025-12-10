@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>labr</title>
+    <link href="/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>labr</h1>
+      is
+      <span><a target="_blank" href="https://tegabrain.com/">Tega Brain</a> and <a target="_blank" href="https://lav.io/">Sam Lavigne</a></span>.
+
+      <p>
+        <a href="/">Home</a> ///
+        <a href="/bio">Bio</a> ///
+        <a href="mailto:labr.io.studio@gmail.com">Contact</a>
+      </p>
+    </header>
+
+    <p class="divider">
+      +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    </p>
+
+
+    {{ block "main" . }}{{ end }}
+
+    <p class="divider">
+      +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    </p>
+
+    <p></p>
+
+    <script>
+      const links = [
+        `<a target="_blank" href="https://tegabrain.com/">Tega Brain</a>`,
+        `<a target="_blank" href="https://lav.io/">Sam Lavigne</a>`,
+      ];
+      document.querySelector("header span").innerHTML =
+        Math.random() >= 0.5
+          ? `${links[0]} and ${links[1]}`
+          : `${links[1]} and ${links[0]}`;
+    </script>
+  </body>
+</html>

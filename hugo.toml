@@ -1,0 +1,6 @@
+baseURL = 'https://labr.io/'
+languageCode = 'en-us'
+title = 'labr'
+
+[markup.goldmark.renderer]
+unsafe= true
