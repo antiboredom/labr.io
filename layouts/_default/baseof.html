@@ -7,31 +7,35 @@
     <link href="/style.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <h1>labr</h1>
-      is
-      <span
-        ><a target="_blank" href="https://tegabrain.com/">Tega Brain</a> and
-        <a target="_blank" href="https://lav.io/">Sam Lavigne</a></span
-      >.
+    <div class="left">
+      <header>
+        <h1>
+          LABR is
+          <span
+            ><a target="_blank" href="https://tegabrain.com/">Tega Brain</a> &
+            <a target="_blank" href="https://lav.io/">Sam Lavigne</a></span
+          >
+        </h1>
 
-      <p>
-        <a href="/">Home</a> /// <a href="/bio">Bio</a> ///
-        <a href="mailto:labr.io.studio@gmail.com">Contact</a>
-      </p>
-    </header>
+        <p>
+          <a href="/bio">Bio</a> ///
+          <a href="mailto:labr.io.studio@gmail.com">Contact</a>
+        </p>
+      </header>
 
-    <p class="divider">
-      +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-    </p>
+      <h2>Selected Works</h2>
+      {{ range $i,$p := where .Site.RegularPages.ByPublishDate.Reverse "Type"
+      "projects"}}
+        <div>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <date>({{ .Date.Format "2006" }})</date>
+        </div>
+      {{ end }}
+    </div>
 
-    {{ block "main" . }}{{ end }}
-
-    <p class="divider">
-      +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-    </p>
-
-    <p></p>
+    <div class="right">
+      {{ block "main" . }}{{ end }}
+    </div>
 
     <script>
       const links = [
