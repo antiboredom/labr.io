@@ -2,7 +2,8 @@
 title: "Sacrifice Zone"
 date: 2020-05-01
 ---
-####  video
+
+#### video
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/461651335?h=2a7a9c67f3" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
 
@@ -12,19 +13,24 @@ IBM began its operations in Endicott in 1911, and opened its country club in the
 
 For further reading on IBM’s legacy in Endicott, read [In the Shadow of Big Blue](https://logicmag.io/nature/in-the-shadow-of-big-blue/), by Ellyn Gaydos, published in Logic Magazine.
 
-![](clip1.jpg)
+![](clip1.JPG)
+
 ###### Film still. ‘Tega Brain and Sam Lavigne, 2020, Sacrifice Zone.’
 
-![](clip2.jpg)
+![](clip2.JPG)
+
 ###### Film still. ‘Tega Brain and Sam Lavigne, 2020, Sacrifice Zone.’
 
-![](clip3.jpg)
+![](clip3.JPG)
+
 ###### Film still. ‘Tega Brain and Sam Lavigne, 2020, Sacrifice Zone.’
 
-![](clip4.jpg)
+![](clip4.JPG)
+
 ###### Film still. ‘Tega Brain and Sam Lavigne, 2020, Sacrifice Zone.’
 
-![](clip5.jpg)
+![](clip5.JPG)
+
 ###### Film still. ‘Tega Brain and Sam Lavigne, 2020, Sacrifice Zone.'
 
 ### Credits
@@ -34,4 +40,3 @@ Filming and editing by [Hannah Jayanti](http://hannahjayanti.com/).
 Commissioned by [Ars Electronica](https://ars.electronica.art/keplersgardens/en/abandoned/).
 
 This work was realised within the framework of the European ARTificial Intelligence Lab with support of the Creative Europe Culture Programme of the European Union.
-
