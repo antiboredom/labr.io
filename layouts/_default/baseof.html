@@ -10,10 +10,9 @@
     <div class="left">
       <header>
         <h1>
-          LABR is<br>
-          <span
-            ><a target="_blank" href="https://tegabrain.com/">Tega Brain</a> &
-            <a target="_blank" href="https://lav.io/">Sam Lavigne</a></span
+          <a href="/"
+            >LABR is<br />
+            <span>Tega Brain & Sam Lavigne</span></a
           >
         </h1>
 
@@ -26,26 +25,20 @@
       <h2>Selected Works</h2>
       {{ range $i,$p := where .Site.RegularPages.ByPublishDate.Reverse "Type"
       "projects"}}
-        <div>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-          <date>({{ .Date.Format "2006" }})</date>
-        </div>
+      <div>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <date>({{ .Date.Format "2006" }})</date>
+      </div>
       {{ end }}
     </div>
 
-    <div class="right">
-      {{ block "main" . }}{{ end }}
-    </div>
+    <div class="right">{{ block "main" . }}{{ end }}</div>
 
     <script>
-      const links = [
-        `<a target="_blank" href="https://tegabrain.com/">Tega Brain</a>`,
-        `<a target="_blank" href="https://lav.io/">Sam Lavigne</a>`,
-      ];
       document.querySelector("header span").innerHTML =
         Math.random() >= 0.5
-          ? `${links[0]} and ${links[1]}`
-          : `${links[1]} and ${links[0]}`;
+          ? "Sam Lavigne and Tega Brain"
+          : "Tega Brain and Sam Lavigne";
     </script>
   </body>
 </html>
